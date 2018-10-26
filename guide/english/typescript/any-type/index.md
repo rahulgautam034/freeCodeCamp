@@ -11,3 +11,23 @@ The Any type instructs Typescript to suspend type checking for the specified var
   notSure = "maybe a string instead";
   notSure = false;
 ```
+
+Any is a special data-type, also the super data-type of all data types. If a variable is declared with any data type then we can assign any type value to that variable.
+The Any data type is the super type of all types in TypeScript. It denotes a dynamic type. Using the any type is equivalent to opting out of type checking for a variable.
+
+```typescript
+
+  let a: any = null;
+
+  let b: any =123;
+
+  let c: any = 123.456;
+
+  let d: any = ‘Geeks’;
+
+  let e: any = undefined;
+
+  let f: any = true;
+  
+  ```
+
